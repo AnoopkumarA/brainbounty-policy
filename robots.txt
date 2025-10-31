@@ -2,5 +2,7 @@ User-agent: *
 Allow: /
 
 # Allow crawling of app-ads.txt
+
 Allow: /app-ads.txt
+
 
