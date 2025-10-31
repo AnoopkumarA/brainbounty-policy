@@ -1,41 +1,7 @@
 {
-    "headers": [
-      {
-        "source": "/app-ads.txt",
-        "headers": [
-          {
-            "key": "Content-Type",
-            "value": "text/plain; charset=utf-8"
-          },
-          {
-            "key": "Access-Control-Allow-Origin",
-            "value": "*"
-          }
-        ]
-      },
-      {
-        "source": "/robots.txt",
-        "headers": [
-          {
-            "key": "Content-Type",
-            "value": "text/plain; charset=utf-8"
-          }
-        ]
-      }
-    ],
-    "routes": [
-      {
-        "src": "/app-ads.txt",
-        "dest": "/app-ads.txt"
-      },
-      {
-        "src": "/robots.txt",
-        "dest": "/robots.txt"
-      },
-      {
-        "src": "/(.*)",
-        "dest": "/index.html"
-      }
-    ]
-  }
-  
+  "routes": [
+    { "src": "/app-ads.txt", "dest": "/app-ads.txt" },
+    { "src": "/robots.txt", "dest": "/robots.txt" },
+    { "src": "/(.*)", "dest": "/index.html" }
+  ]
+}
